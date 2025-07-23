@@ -1,4 +1,6 @@
 # judge which cmake codes to use 
+set(ROS_EDITION "ROS2")
+set(DISTRO_ROS "jazzy")
 if(ROS_EDITION STREQUAL "ROS1")
 
   # Copyright(c) 2019 livoxtech limited.
